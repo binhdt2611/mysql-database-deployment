@@ -5,6 +5,7 @@ Ansible role for installing mysql 5.7. Tested platforms are:
 * Debian 8
 * Debian 9
 * Ubuntu 16
+* CentOS 7
 
 Requirements
 ------------
