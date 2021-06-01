@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Binh Do
+  description: Install MySQL server 5.7
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.9.16
+  platforms:
+  - name: CentOS
+    versions:
+    - 6
+    - 7
+  - name: Ubuntu
+    versions:
+    - bionic
+  galaxy_tags:
+    - development
+    - web
+    - mysql
+    - database
+dependencies: []

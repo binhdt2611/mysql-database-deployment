@@ -1,0 +1,16 @@
+---
+# handlers file for binhdt.mysql
+- name: restart mysql service
+  service:
+    name: httpd
+    state: restarted
+
+- name: start mysql service
+  service:
+    name: httpd
+    state: startted
+
+- name: stop mysql service
+  service:
+    name: httpd
+    state: stopped

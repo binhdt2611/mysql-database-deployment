@@ -1,0 +1,7 @@
+---
+- hosts: kube-node1
+  become: yes
+  become_user: binhdt
+  become_method: su
+  roles:
+    - binhdt.mysql

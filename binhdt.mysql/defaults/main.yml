@@ -1,0 +1,7 @@
+---
+default_mysql_root_user: root
+default_mysql_root_password: Mysql123!
+default_mysql_user_login: binhdt
+default_mysql_user_password: password123
+default_mysql_port: 3306
+mysql_version: 5.7

@@ -1,0 +1,14 @@
+- name: Check OS Distribution release is Debian
+  include_tasks: "debian.yml"
+  when: ansible_distribution == "Debian"
+  #static: no
+
+- name: Check OS Distribution release is ubuntu
+  include_tasks: "ubuntu.yml"
+  when: ansible_distribution == "Ubuntu"
+  #static: no
+
+- name: Check OS Distribution release is RedHat/CentOS
+  include_tasks: "setup-centos.yml"
+  when: ansible_distribution == "CentOS"
+  #static: no
